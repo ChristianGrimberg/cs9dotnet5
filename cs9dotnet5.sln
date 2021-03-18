@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberSizesAndRanges", "Num
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopingWithForeach", "LoopingWithForeach\LoopingWithForeach.csproj", "{B47A471A-AC47-45CA-BDE5-1D07D6DACAA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastingNumbers", "CastingNumbers\CastingNumbers.csproj", "{B5FA5772-5409-41EC-A07F-F94F9A07CCE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +116,17 @@ Global
 		{B47A471A-AC47-45CA-BDE5-1D07D6DACAA4}.Release|x64.Build.0 = Release|Any CPU
 		{B47A471A-AC47-45CA-BDE5-1D07D6DACAA4}.Release|x86.ActiveCfg = Release|Any CPU
 		{B47A471A-AC47-45CA-BDE5-1D07D6DACAA4}.Release|x86.Build.0 = Release|Any CPU
+		{B5FA5772-5409-41EC-A07F-F94F9A07CCE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5FA5772-5409-41EC-A07F-F94F9A07CCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5FA5772-5409-41EC-A07F-F94F9A07CCE7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B5FA5772-5409-41EC-A07F-F94F9A07CCE7}.Debug|x64.Build.0 = Debug|Any CPU
+		{B5FA5772-5409-41EC-A07F-F94F9A07CCE7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B5FA5772-5409-41EC-A07F-F94F9A07CCE7}.Debug|x86.Build.0 = Debug|Any CPU
+		{B5FA5772-5409-41EC-A07F-F94F9A07CCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5FA5772-5409-41EC-A07F-F94F9A07CCE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5FA5772-5409-41EC-A07F-F94F9A07CCE7}.Release|x64.ActiveCfg = Release|Any CPU
+		{B5FA5772-5409-41EC-A07F-F94F9A07CCE7}.Release|x64.Build.0 = Release|Any CPU
+		{B5FA5772-5409-41EC-A07F-F94F9A07CCE7}.Release|x86.ActiveCfg = Release|Any CPU
+		{B5FA5772-5409-41EC-A07F-F94F9A07CCE7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
