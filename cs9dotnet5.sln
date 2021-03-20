@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParsingStrings", "ParsingSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlingExceptions", "HandlingExceptions\HandlingExceptions.csproj", "{A6D551F7-4895-413A-87A6-11C9251C319C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{EB5DF9A4-37BF-450B-B119-1A706AE55324}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -170,5 +172,17 @@ Global
 		{A6D551F7-4895-413A-87A6-11C9251C319C}.Release|x64.Build.0 = Release|Any CPU
 		{A6D551F7-4895-413A-87A6-11C9251C319C}.Release|x86.ActiveCfg = Release|Any CPU
 		{A6D551F7-4895-413A-87A6-11C9251C319C}.Release|x86.Build.0 = Release|Any CPU
+		{EB5DF9A4-37BF-450B-B119-1A706AE55324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5DF9A4-37BF-450B-B119-1A706AE55324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5DF9A4-37BF-450B-B119-1A706AE55324}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EB5DF9A4-37BF-450B-B119-1A706AE55324}.Debug|x64.Build.0 = Debug|Any CPU
+		{EB5DF9A4-37BF-450B-B119-1A706AE55324}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EB5DF9A4-37BF-450B-B119-1A706AE55324}.Debug|x86.Build.0 = Debug|Any CPU
+		{EB5DF9A4-37BF-450B-B119-1A706AE55324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5DF9A4-37BF-450B-B119-1A706AE55324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5DF9A4-37BF-450B-B119-1A706AE55324}.Release|x64.ActiveCfg = Release|Any CPU
+		{EB5DF9A4-37BF-450B-B119-1A706AE55324}.Release|x64.Build.0 = Release|Any CPU
+		{EB5DF9A4-37BF-450B-B119-1A706AE55324}.Release|x86.ActiveCfg = Release|Any CPU
+		{EB5DF9A4-37BF-450B-B119-1A706AE55324}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
