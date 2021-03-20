@@ -32,21 +32,19 @@ namespace HandlingExceptions
             
             try
             {
+                unchecked
+                {
+                    int y = int.MaxValue + 1;
+                    Console.WriteLine($"\nInitial value: {y}");
+                    y--;
+                    Console.WriteLine($"After decrementing: {y}");
+                    y--;
+                    Console.WriteLine($"After decrementing: {y}");
+                }
+                
                 checked
                 {
                     int x = int.MaxValue - 1;
-                    Console.WriteLine($"\nInitial value: {x}");
-                    x++;
-                    Console.WriteLine($"After incrementing: {x}");
-                    x++;
-                    Console.WriteLine($"After incrementing: {x}");
-                    x++;
-                    Console.WriteLine($"After incrementing: {x}");
-                }
-
-                unchecked
-                {
-                    int x = int.MaxValue + 1;
                     Console.WriteLine($"\nInitial value: {x}");
                     x++;
                     Console.WriteLine($"After incrementing: {x}");
