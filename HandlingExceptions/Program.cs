@@ -29,6 +29,37 @@ namespace HandlingExceptions
             }
 
             Console.WriteLine("After parsing");
+            
+            try
+            {
+                checked
+                {
+                    int x = int.MaxValue - 1;
+                    Console.WriteLine($"\nInitial value: {x}");
+                    x++;
+                    Console.WriteLine($"After incrementing: {x}");
+                    x++;
+                    Console.WriteLine($"After incrementing: {x}");
+                    x++;
+                    Console.WriteLine($"After incrementing: {x}");
+                }
+
+                unchecked
+                {
+                    int x = int.MaxValue + 1;
+                    Console.WriteLine($"\nInitial value: {x}");
+                    x++;
+                    Console.WriteLine($"After incrementing: {x}");
+                    x++;
+                    Console.WriteLine($"After incrementing: {x}");
+                    x++;
+                    Console.WriteLine($"After incrementing: {x}");
+                }
+            }
+            catch (System.OverflowException)
+            {
+                Console.WriteLine("The code overflowed but I caught the exception.");
+            }
         }
     }
 }
