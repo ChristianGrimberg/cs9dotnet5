@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeExceptionHandling",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugDuringDevelopment", "DebugDuringDevelopment\DebugDuringDevelopment.csproj", "{54DA59AE-B582-4BBF-9B51-38DB7F0FB17E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instrumenting", "Instrumenting\Instrumenting.csproj", "{B331EF53-3164-4254-9943-2C4ABDAF0C3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -212,5 +214,17 @@ Global
 		{54DA59AE-B582-4BBF-9B51-38DB7F0FB17E}.Release|x64.Build.0 = Release|Any CPU
 		{54DA59AE-B582-4BBF-9B51-38DB7F0FB17E}.Release|x86.ActiveCfg = Release|Any CPU
 		{54DA59AE-B582-4BBF-9B51-38DB7F0FB17E}.Release|x86.Build.0 = Release|Any CPU
+		{B331EF53-3164-4254-9943-2C4ABDAF0C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B331EF53-3164-4254-9943-2C4ABDAF0C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B331EF53-3164-4254-9943-2C4ABDAF0C3B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B331EF53-3164-4254-9943-2C4ABDAF0C3B}.Debug|x64.Build.0 = Debug|Any CPU
+		{B331EF53-3164-4254-9943-2C4ABDAF0C3B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B331EF53-3164-4254-9943-2C4ABDAF0C3B}.Debug|x86.Build.0 = Debug|Any CPU
+		{B331EF53-3164-4254-9943-2C4ABDAF0C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B331EF53-3164-4254-9943-2C4ABDAF0C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B331EF53-3164-4254-9943-2C4ABDAF0C3B}.Release|x64.ActiveCfg = Release|Any CPU
+		{B331EF53-3164-4254-9943-2C4ABDAF0C3B}.Release|x64.Build.0 = Release|Any CPU
+		{B331EF53-3164-4254-9943-2C4ABDAF0C3B}.Release|x86.ActiveCfg = Release|Any CPU
+		{B331EF53-3164-4254-9943-2C4ABDAF0C3B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
