@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace Packt.Shared
 {
+    /// <summary>
+    /// A Person model
+    /// </summary>
     public class Person : Object
     {
         // Fields
