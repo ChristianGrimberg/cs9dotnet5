@@ -39,6 +39,12 @@ namespace PeopleApp
                 arg0: naty.Name,
                 arg1: naty.DateOfBirth
             );
+
+            var bob = new Person();
+            bob.Name = "Bob Smith";
+            bob.BucketList = WondersOfTheAncientWorld.ColossusOfRhodes | WondersOfTheAncientWorld.GreatPyramidOfGiza;
+
+            Console.WriteLine($"{bob.Name}'s bucket list is {bob.BucketList}.");
         }
     }
 }
