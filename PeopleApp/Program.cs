@@ -43,8 +43,15 @@ namespace PeopleApp
             var bob = new Person();
             bob.Name = "Bob Smith";
             bob.BucketList = WondersOfTheAncientWorld.ColossusOfRhodes | WondersOfTheAncientWorld.GreatPyramidOfGiza;
+            bob.Children.Add(new Person { Name = "Alfred" });
+            bob.Children.Add(new Person { Name = "Zoe" });
 
             Console.WriteLine($"{bob.Name}'s bucket list is {bob.BucketList}.");
+            Console.WriteLine($"{bob.Name} has {bob.Children.Count} children:");
+            foreach (var children in bob.Children)
+            {
+                Console.WriteLine($"    {children.Name}");
+            }
         }
     }
 }
