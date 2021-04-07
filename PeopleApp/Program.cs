@@ -52,6 +52,28 @@ namespace PeopleApp
             {
                 Console.WriteLine($"    {children.Name}");
             }
+
+            BankAccount.InterestRate = 0.012M; // store a shared value
+
+            var jonesAccount = new BankAccount();
+            jonesAccount.AccountName = "Mrs. Jones";
+            jonesAccount.Balance = 2400;
+            Console.WriteLine
+            (
+                format: "{0} earned {1:C} interest.",
+                arg0: jonesAccount.AccountName,
+                arg1: jonesAccount.Balance * BankAccount.InterestRate
+            );
+
+            var gerrierAccount = new BankAccount();
+            gerrierAccount.AccountName = "Mrs. Gerrier";
+            gerrierAccount.Balance = 98;
+            Console.WriteLine
+            (
+                format: "{0} earned {1:C} interest.",
+                arg0: gerrierAccount.AccountName,
+                arg1: gerrierAccount.Balance * BankAccount.InterestRate
+            );
         }
     }
 }
