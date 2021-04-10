@@ -76,6 +76,27 @@ namespace PeopleApp
             );
 
             Console.WriteLine($"{bob.Name} is a {Person.Species}");
+            Console.WriteLine($"{bob.Name} was born on {bob.HomePlanet}");
+
+            var blankPerson = new Person();
+
+            Console.WriteLine
+            (
+                format: "{0} of {1} was created at {2:hh:mm:ss} on a {2:dddd}.",
+                arg0: blankPerson.Name,
+                arg1: blankPerson.HomePlanet,
+                arg2: blankPerson.Instantiated
+            );
+
+            var gunny = new Person("Gunny", "Mars");
+
+            Console.WriteLine
+            (
+                format: "{0} of {1} was created at {2:hh:mm:ss} on a {2:dddd}.",
+                arg0: gunny.Name,
+                arg1: gunny.HomePlanet,
+                arg2: gunny.Instantiated
+            );
         }
     }
 }
