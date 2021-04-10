@@ -74,6 +74,8 @@ namespace PeopleApp
                 arg0: gerrierAccount.AccountName,
                 arg1: gerrierAccount.Balance * BankAccount.InterestRate
             );
+
+            Console.WriteLine($"{bob.Name} is a {Person.Species}");
         }
     }
 }
