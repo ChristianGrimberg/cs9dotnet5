@@ -100,6 +100,9 @@ namespace PeopleApp
 
             naty.WriteToConsole();
             Console.WriteLine(naty.GetOrigin());
+
+            (string, int) fruit = bob.GetFruit();
+            Console.WriteLine($"{fruit.Item1}, {fruit.Item2} there are.");
         }
     }
 }
