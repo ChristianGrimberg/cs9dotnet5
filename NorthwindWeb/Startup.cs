@@ -34,9 +34,13 @@ namespace NorthwindWeb
 
             app.UseHttpsRedirection();
 
+            app.UseDefaultFiles();
+
+            app.UseStaticFiles();
+
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
+                endpoints.MapGet("/hello", async context =>
                 {
                     await context.Response.WriteAsync("<h1>Hello World!</h1>");
                 });
