@@ -1,5 +1,14 @@
 @page
-@functions{}
+@functions
+{
+    public string DayName { get; set; }
+
+    public void OnGet()
+    {
+        Model.DayName = DateTime.Now.ToString("dddd");
+    }
+}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +24,7 @@
             <p class="lead">We supply products to our customers.</p>
             <hr />
             <h2>This is a HTML Razor page.</h2>
-            <p>Our customers include restaurants, hotel and cruise lnes.</p>
+            <p>It's @Model.DayName! Our customers include restaurants, hotel and cruise lnes.</p>
             <p>
                 <a class="btn btn-primary" href="http://www.asp.net">Learn more</a>
             </p>
